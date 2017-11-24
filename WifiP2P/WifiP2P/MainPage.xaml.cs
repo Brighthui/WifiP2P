@@ -42,7 +42,7 @@ namespace WifiP2P
         private void OnStateChanged(object sender, PhoneDeviceEventArgs e)
         {
             if (e.WiFiEnable)
-                lblWiFi.Text = "WiFi Enabled";
+                lblWiFi.Text = "WiFi Enabled"; //test
             else
                 lblWiFi.Text = "WiFi Disabled";
         }
