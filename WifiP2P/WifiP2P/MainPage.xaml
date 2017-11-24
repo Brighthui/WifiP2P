@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WifiP2P"
+             x:Class="WifiP2P.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblWiFi"/>
+            <Label x:Name="lblConnectSuccess" Text="Connection Status"/>
+            <Label x:Name="lblConnectDevice" Text="Connected IP"/>
+            <Label x:Name="lblReceivedMessage" Text="Transferred Msg"/>
+            <Label x:Name="lblServerReceived" Text="Server Received Msg"/>
+
+            <Button Text="Find TeamLead" Clicked="Find_Clicked"/>
+            <Button Text="Send Message" Clicked="Send_Clicked"/>
+            <ListView
+                x:Name="lstDevice"
+                ItemSelected="lstDevice_ItemSelected"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

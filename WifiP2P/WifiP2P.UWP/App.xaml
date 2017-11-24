@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="WifiP2P.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WifiP2P.UWP"
+    RequestedTheme="Light">
+
+</Application>
